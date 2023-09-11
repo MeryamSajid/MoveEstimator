@@ -13,7 +13,7 @@ class Program {
     double miles = double.Parse(Console.ReadLine());
 
     double totalPrice = BASE_RATE + (HOURLY_RATE * hours) + (PER_MILE * miles);
-    Console.WriteLine("$" + totalPrice); 
+    Console.WriteLine("$" + totalPrice.ToString("F2")); 
     
   }
 }
